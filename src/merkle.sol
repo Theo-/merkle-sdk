@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import {Vm} from "forge-std/src/Vm.sol";
+import {Vm} from "forge-std/Vm.sol";
 
 interface mvm is Vm {
     // additional vm methods
